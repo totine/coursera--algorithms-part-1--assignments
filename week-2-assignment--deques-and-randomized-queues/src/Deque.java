@@ -11,7 +11,7 @@ public class Deque<Item> implements Iterable<Item> {
         Node next;
         Node previous;
 
-        public Node(Item item) {
+        Node(Item item) {
             value = item;
             next = null;
             previous = null;
